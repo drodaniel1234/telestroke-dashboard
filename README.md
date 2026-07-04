@@ -14,6 +14,9 @@ This project automates that extraction, and treats hallucination risk as a first
 
 ## What it does
 
+<img width="800" height="438" alt="quality-metric-extraction-pipeline" src="https://github.com/user-attachments/assets/05e2148a-43ea-41d3-8c55-e8d97906c406" />
+
+
 - **Extraction** — paste or dictate a consult note, and it pulls 10 structured fields (last known well, arrival, NIHSS, tPA administration, thrombectomy decision, TICI score, destination, etc.), each backed by a verbatim quote from the note.
 - **Linked evidence** — hover or click any extracted field and the exact supporting text lights up in the original note.
 - **Time normalization** — physicians write timestamps inconsistently; the model normalizes every time to 24-hour format regardless of how it was originally written, and derived timing metrics (door-to-needle, door-to-puncture, onset-to-treatment) are calculated automatically from the normalized values.
