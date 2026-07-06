@@ -74,10 +74,6 @@ All hospital names and patient details are fictional. No real patient data was u
 
 Actively in progress. Built starting from a Claude.ai-generated prototype and converted into a standalone project using Claude Code.
 
-## Author
-
-Daniel Ro, MD — Neurocritical Care & Vascular Neurology, Sutter Health. Building toward the intersection of frontline clinical practice and applied AI.
-
 ## 🧩 The Stroke Copilot Ecosystem
 This dashboard is designed as a modular component within a broader, zero-duplicate-entry clinical pipeline aimed at minimizing cognitive load and administrative waste during acute stroke codes:
 
@@ -86,3 +82,6 @@ This dashboard is designed as a modular component within a broader, zero-duplica
 3. **Automated Extraction (This Tool):** Once the telestroke note is finalized, this dashboard seamlessly sweeps the unstructured text to abstract structured quality metrics for hospital reporting—fully backed by verifiable source-text tracing.
 
 Ultimately, these standalone modules are intended to integrate into a unified, ambient AI command center for telestroke workflows.
+
+## Disclaimer
+This repository contains experimental prototype code intended solely for research, demonstration, and educational purposes. It is not an FDA-cleared medical device, nor is it a substitute for independent clinical judgment. All final clinical determinations remain the strict responsibility of the treating physician. Do not use this software for direct patient care.
