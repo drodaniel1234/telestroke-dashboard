@@ -77,3 +77,12 @@ Actively in progress. Built starting from a Claude.ai-generated prototype and co
 ## Author
 
 Daniel Ro, MD — Neurocritical Care & Vascular Neurology, Sutter Health. Building toward the intersection of frontline clinical practice and applied AI.
+
+## 🧩 The Stroke Copilot Ecosystem
+This dashboard is designed as a modular component within a broader, zero-duplicate-entry clinical pipeline aimed at minimizing cognitive load and administrative waste during acute stroke codes:
+
+1. **Real-Time Capture:** Bedside metrics are logged instantly via the *Stroke Time Tracker*.
+2. **Clinical Decision Support:** Modules like the *Telestroke IVT Assistant* process clinical inputs against rigid safety constraints (e.g., 14-day neurosurgery hard stops).
+3. **Automated Extraction (This Tool):** Once the telestroke note is finalized, this dashboard seamlessly sweeps the unstructured text to abstract structured quality metrics for hospital reporting—fully backed by verifiable source-text tracing.
+
+Ultimately, these standalone modules are intended to integrate into a unified, ambient AI command center for telestroke workflows.
